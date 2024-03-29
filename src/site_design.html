@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Accesibility Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./stylesheets/main.scss">
+</head>
+
+<body>
+    <a href="#mainCont" class="skipLink hidden">Skip To Content</a>
+
+    <nav class="navbar navbar-expand-lg " role="naviagtion" aria-label="Main navigation" id="navList">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  justify-content-end" id="navList">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about_me.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plain_language.html">Plain Language</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="site_design.html">Site Design</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header role="banner">
+
+    </header>
+
+    <main role="main">
+        <h1 class="text-center pt-5 pb-5" id="mainCont" role="heading" aria-level="1">Site Design</h1>
+
+        <article class="pt-4" role="article" aria-labelledby="articleHeader">
+            <h2 class="text-center" role="heading" aria-level="2" id="articleHeader">Visual Design</h2>
+            <hr>
+            <p>I chose this visual design to align with the WCAG 2.1 level AA guidlines. The colors create enough
+                contrast to meet the requirements. I also wanted a lot of white space to make it easier to read for
+                people with all kinds of different disabilities. The font was chosen to based on the WCAG guidelines.
+                There was also a need to make sure that the navigation was specificly chosen to ensure that a screen
+                reader would be able to navigate and the average user would know exactly what page they were on. </p>
+        </article>
+
+        <article class="pt-4" role="article" aria-labelledby="articleHeader2">
+            <h2 class="text-center" role="heading" aria-level="2" id="articleHeader2">Structural Design</h2>
+            <hr>
+            <p>The structure of the website is in compliance with the WCAG 2.1 level AA guidelines. The whole page is
+                correctly coded to include the ids, arias, and roles. This helps screenreaders navigate the site easier.
+                The headings are in order from highest priority to the lowest. There is a clear consistent layout to
+                each page and a logical reading order to promote perceivability and understand for user with varying
+                abilities. </p>
+
+        </article>
+
+
+    </main>
+
+    <footer class="text-center pt-5 footer" role="contentinfo">&copy; All Rights Reserved - 2023 Conner Russell</footer>
+
+    <script type="module" src="./javascripts/main.js"></script>
+</body>
+
+</html>

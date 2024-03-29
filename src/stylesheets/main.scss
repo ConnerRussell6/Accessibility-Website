@@ -1,0 +1,96 @@
+// Your styles go here
+
+$color1: #8b1b25; 
+$color2: #340914;
+$color3: #f0e4b0;
+$color4: #63954e;
+$color5: #c38545;
+
+//import boostrap
+
+@import "bootstrap";
+
+//after bootstrap
+
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: lighten($color3, 15%);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+table, th, td {
+    border: 1px solid
+}
+
+.complex {
+    td, th, td {
+        text-align: center;
+    }
+}
+
+.overflow {
+    overflow-x: auto;
+}
+
+.block {
+    display: block;
+}
+
+table {
+    width: 50%;
+}
+
+.tableWidth {
+    width: 100%;
+}
+
+[aria-current] {
+    border: 2px solid 
+}
+
+a:hover {
+    background-color: #c38545;
+}
+
+a:active {
+    background-color: #63954e;
+}
+
+a:focus {
+    background-color: #63954e;
+}
+
+.footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-primary {
+    background-color: #c38545;
+    border-color: #c38545;
+}
+
+.btn-primary:hover {
+    background-color: #63954e;
+    border-color: #63954e;
+}
+
+
+
